@@ -1,0 +1,98 @@
+.Post{
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+.PostContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1190px;
+}
+.PostTop{
+    display: flex;
+    flex-direction: row; 
+    margin-right: auto; 
+    align-items: center;
+    font-weight: 600;
+}
+.RecomendedPostWrapper{
+    display: flex;
+    width: 100%;
+}
+.RecomendedPostContent {
+    display: flex;
+    width: 100%;
+  }
+  
+  .RecomendedPost{
+    display: grid;
+    margin: 0px 10px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(2, 1r);
+    grid-auto-rows: 400px;
+    column-gap: 1fr;
+  }
+  
+  .RecomendedPost {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 5px 0px;
+  }
+  
+  .RecomendedPost-left {
+    display: flex;
+    font-size: 30px;
+    color: rgb(216, 216, 216);
+    font-weight: 800;
+  }
+  
+  .RecomendedPost-right {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .RecomendedPostContent {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+  
+  .RecomendedPostTop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* margin: 0px 10px; */
+  }
+  
+  .RecomendedPostTop > img {
+    border-radius: 30%;
+    width: 20px;
+    margin-right: 10px;
+    /* margin: 0px 10px; */
+  }
+  
+  .RecomendedPostTop > span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(8, 8, 8, 1);
+  }
+  
+  .Content {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  
+  .Footer {
+    display: flex;
+    margin: 5px 0;
+    color: rgb(175, 175, 175);
+  }
+  

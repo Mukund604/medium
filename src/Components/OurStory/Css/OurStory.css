@@ -1,0 +1,73 @@
+.EveryIdea{
+    font-size: 6.5vw;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    height: 20vh;
+    text-align: center;
+    padding: 90px 0;
+}
+.ContAndImage{
+    display: flex;
+}
+.contentDiv{
+    padding: 80px;
+    width: 45vw;
+    font-size: x-large;
+
+}
+.imageDiv{
+    padding: 80px;
+    width: 45vw;
+    border-left: 1px solid black;
+}
+.notification-component{
+    background-color: white;
+}
+.OverMillion{
+    color: white;
+    display: flex;
+    background-color: black;
+
+}
+.oneHundredMillion{
+    padding: 80px;
+    width: 45vw;
+    font-size: 50px;
+}
+.imageDiv2{
+    padding: 80px;
+    width: 45vw;
+    border-left: 1px solid white;
+}
+.imageDiv2 > img{
+    width: 20vw;
+}
+.imageDiv2 > p{
+    font-size: x-large;
+    font-family: 400;
+    padding: 30px;
+}
+.imageDiv2 > h1{
+    padding: 30px;
+}
+.lastDiv{
+    display: flex;
+    height: 80vh;
+    border-bottom: 1px solid black;
+}
+.CubeDiv{
+    padding: 40px;
+    width: 45vw;
+    border-right: 1px solid black;
+    text-align: left;
+}
+.cube{
+    width: 45vw;
+    height: 75vh;
+}
+.ReadWrite{
+    width: 45vw;
+    padding: 80px;
+    font-weight: 800;
+    font-size: 110px;
+}

@@ -1,0 +1,70 @@
+.Main{
+    background-color: #4479ff;
+    color: white;
+    padding-top: 80px;
+}
+.FuelGreat{
+    margin-bottom: 1px solid white;
+}
+.FuelGreat > h1{
+    font-size: 130px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+    text-align: center;
+}
+.FuelGreat > p{
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.infoDiv{
+    display: flex;
+}
+.div1{
+    text-align: left;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    padding: 50px;
+    width: 45vw;
+}
+.div1 > h5{
+    font-size: 45px;
+    padding: 5px;
+}
+.div1 > p{
+    font-size: x-large;
+}
+.div2 > p{
+    font-size:  x-large;
+}
+.div2{
+
+    text-align: left;
+    border-top: 1px solid white;
+    padding: 50px;
+    width: 45vw;
+}
+.div2 > h5{
+    font-size: 45px;
+    padding: 5px;
+}
+.TakeYour{
+    width: 100vw;
+    padding-top: 80px;
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.TakeYour > h1{
+    font-size: 110px;
+}
+.button1{
+    font-size: 50px;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}

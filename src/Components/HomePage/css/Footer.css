@@ -1,0 +1,16 @@
+.FooterMain{
+    height: 10vh;
+    width: 95vw;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+.MediumLogo{
+    width: 15vw;
+}
+.textContainer{
+    margin-top: 5px;
+    font-size: 30px;
+}

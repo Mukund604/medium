@@ -1,0 +1,38 @@
+.StayCurious{
+    padding-top: 80px;
+    height: 70vh;
+    text-align: left;
+}
+.StayCurious > h1{
+  font-size: 8vw;
+  padding-left: 20px;
+}
+.StayCurious > p{
+    font-size: 2vw;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.StayCurious > button{
+    margin-top: 30px;
+    font-size: 25px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.MainContent{
+    padding: 40px;
+    height: 50vh;
+    background-color: #ffc117;
+    display: flex;
+    justify-content: space-between;
+}
+.VideoDiv > img{
+    height: 45vh;
+}
+.VideoDiv{
+    height: 50vh;
+}
