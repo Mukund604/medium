@@ -5,6 +5,8 @@ import OurStoryIndex from './Components/OurStory/index.js';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'   
 import Header from './Components/HomePage/Header';
 import MembershipIndex from '../src/Components/Membership/index'
+import SignInIndex from '../src/Components/SignIn/index'
+import MainContentWrite from './Components/Write/index';
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
       </Route>
       <Route path='/OurStory' element={<OurStoryIndex/>}></Route>
       <Route path='/Membership' element={<MembershipIndex/>}></Route>
+      <Route path='/Signin' element={<SignInIndex/>}></Route>
+      <Route path='/Write' element={<MainContentWrite/>}></Route>
     </Routes>
   </BrowserRouter>
   );

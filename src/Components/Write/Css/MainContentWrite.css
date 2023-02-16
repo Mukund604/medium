@@ -1,0 +1,42 @@
+.WriteDiv{
+    padding-top: 64px;
+    background-color: #f24d2d;
+}
+.PublishGrow{
+    border-top: 3px solid black;
+    padding: 70px;
+}
+.PublishGrow > h1{
+    font-size: 120px;
+    word-spacing: 0.5px;
+}
+.PublishGrow > span{
+    font-size: 30px;
+    word-spacing: 0.5px;
+}
+.PublishGrow > p{
+    word-spacing: 20px;
+    color: white;
+}
+.StartWriting{
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
+.FindAudiance{
+    background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding-bottom: 90px;
+}
+.FindAudiance > h1{
+    font-size: 120px;
+}
+.FindAudiance > p{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
